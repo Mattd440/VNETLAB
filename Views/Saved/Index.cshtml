@@ -1,0 +1,51 @@
+@model IList<NetworkConfigurator.Model.SavedViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+<link rel="stylesheet" href="~/css/SavedIndex.css" />
+
+<div class="row">
+    
+        <h2 id="mainTitle">Saved Configurations</h2>
+
+
+        <ul class="list-group">
+            @foreach (var net in Model)
+            {
+                var hostCount = 0;
+                var switchCount = 0;
+                <li class="list-group-item listItem" onmouseover="hover(this)" onmouseout="unhover(this)">
+                    
+                    <a id="netName" href="/Saved/Detail/@net.Network.ID ">@net.Network.Name </a> 
+
+
+                    @foreach (var h in net.Hosts)
+                    {
+                        hostCount++;
+                    }
+                    @foreach (var s in net.Switchs)
+                    {
+                        switchCount++;
+                    }
+                    
+                        <span id="hostCount" class="badge  badge-success">Hosts: @hostCount </span>
+                        <span id="switchCount" class="badge  badge-success">Switchs: @switchCount </span>
+
+                 
+                    
+
+                    @{
+                        hostCount = 0;
+                        switchCount = 0;
+                    }
+
+                </li>
+
+                        }
+        </ul>
+    </div>
+</div>
+<script type="text/javascript" src="~/js/savedIndex.js"></script>
