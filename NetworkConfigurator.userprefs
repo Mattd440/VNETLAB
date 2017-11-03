@@ -1,7 +1,7 @@
 ﻿<Properties StartupConfiguration="{16AFA76C-20C3-48DD-9A27-37729BEA19ED}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="wwwroot/js/Detail.js">
     <Files>
-      <File FileName="wwwroot/js/Detail.js" Line="1" Column="1" />
+      <File FileName="wwwroot/js/Detail.js" Line="21" Column="8" />
       <File FileName="Views/Saved/Detail.cshtml" Line="9" Column="124" />
     </Files>
   </MonoDevelop.Ide.Workbench>

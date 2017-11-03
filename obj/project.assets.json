@@ -26127,11 +26127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattdiederick/Desktop/CSET3600Project-master/NetworkConfigurator.csproj",
+      "projectUniqueName": "/Users/mattdiederick/Desktop/VNET/NetworkConfigurator.csproj",
       "projectName": "NetworkConfigurator",
-      "projectPath": "/Users/mattdiederick/Desktop/CSET3600Project-master/NetworkConfigurator.csproj",
+      "projectPath": "/Users/mattdiederick/Desktop/VNET/NetworkConfigurator.csproj",
       "packagesPath": "/Users/mattdiederick/.nuget/packages/",
-      "outputPath": "/Users/mattdiederick/Desktop/CSET3600Project-master/obj",
+      "outputPath": "/Users/mattdiederick/Desktop/VNET/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mattdiederick/.config/NuGet/NuGet.Config"

@@ -28,7 +28,7 @@ textarea {
     width: 100%;
 }
 #foot{
-    position:absolute;
+    position:relative;
     bottom:0px;
 }
 
