@@ -11,11 +11,82 @@
   <ItemGroup>
     <None Remove="Properties\PublishProfiles\viewnet2 - Web Deploy.pubxml" />
     <None Remove="Views\Create\Index.html" />
+    <None Remove="NetConfiguratorTests\obj\NetConfiguratorTests.csproj.nuget.cache" />
+    <None Remove="NetConfiguratorTests\obj\NetConfiguratorTests.csproj.nuget.g.props" />
+    <None Remove="NetConfiguratorTests\obj\NetConfiguratorTests.csproj.nuget.g.targets" />
+    <None Remove="NetworkConfigTests\obj\NetworkConfigTests.csproj.nuget.cache" />
+    <None Remove="NetworkConfigTests\obj\NetworkConfigTests.csproj.nuget.g.props" />
+    <None Remove="NetworkConfigTests\obj\NetworkConfigTests.csproj.nuget.g.targets" />
+    <None Remove="VNETLabTests\bin\Debug\netcoreapp2.0\VNETLabTests.dll" />
+    <None Remove="VNETLabTests\bin\Debug\netcoreapp2.0\VNETLabTests.pdb" />
+    <None Remove="VNETLabTests\bin\Debug\netcoreapp2.0\xunit.runner.reporters.netstandard15.dll" />
+    <None Remove="VNETLabTests\bin\Debug\netcoreapp2.0\xunit.runner.utility.netstandard15.dll" />
+    <None Remove="VNETLabTests\bin\Debug\netcoreapp2.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll" />
+    <None Remove="VNETLabTests\obj\VNETLabTests.csproj.nuget.cache" />
+    <None Remove="VNETLabTests\obj\VNETLabTests.csproj.nuget.g.props" />
+    <None Remove="VNETLabTests\obj\VNETLabTests.csproj.nuget.g.targets" />
+    <None Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.AssemblyInfoInputs.cache" />
+    <None Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.csproj.CoreCompileInputs.cache" />
+    <None Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.csproj.FileListAbsolute.txt" />
+    <None Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.csprojResolveAssemblyReference.cache" />
+    <None Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.dll" />
+    <None Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.pdb" />
+    <None Remove="VNETTestSuite\obj\VNETTestSuite.csproj.nuget.cache" />
+    <None Remove="VNETTestSuite\obj\VNETTestSuite.csproj.nuget.g.props" />
+    <None Remove="VNETTestSuite\obj\VNETTestSuite.csproj.nuget.g.targets" />
+    <None Remove="VNetTests\obj\VNETTests.csproj.nuget.cache" />
+    <None Remove="VNetTests\obj\VNETTests.csproj.nuget.g.props" />
+    <None Remove="VNetTests\obj\VNETTests.csproj.nuget.g.targets" />
+    <None Remove="NetConfigTests\obj\NetConfigTests.csproj.nuget.cache" />
+    <None Remove="NetConfigTests\obj\NetConfigTests.csproj.nuget.g.props" />
+    <None Remove="NetConfigTests\obj\NetConfigTests.csproj.nuget.g.targets" />
+    <None Remove="Tests\obj\Tests.csproj.nuget.cache" />
+    <None Remove="Tests\obj\Tests.csproj.nuget.g.props" />
+    <None Remove="Tests\obj\Tests.csproj.nuget.g.targets" />
+    <None Remove="TestVNET\obj\TestVNET.csproj.nuget.cache" />
+    <None Remove="TestVNET\obj\TestVNET.csproj.nuget.g.props" />
+    <None Remove="TestVNET\obj\TestVNET.csproj.nuget.g.targets" />
+    <None Remove="VNETTest\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll" />
+    <None Remove="VNETTest\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll" />
+    <None Remove="VNETTest\bin\Debug\netcoreapp1.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll" />
+    <None Remove="VNETTest\bin\Debug\netcoreapp1.1\VNETTest.dll" />
+    <None Remove="VNETTest\bin\Debug\netcoreapp1.1\VNETTest.pdb" />
+    <None Remove="VNETTest\obj\VNETTest.csproj.nuget.cache" />
+    <None Remove="VNETTest\obj\VNETTest.csproj.nuget.g.props" />
+    <None Remove="VNETTest\obj\VNETTest.csproj.nuget.g.targets" />
+    <None Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.AssemblyInfoInputs.cache" />
+    <None Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.csproj.CoreCompileInputs.cache" />
+    <None Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.csproj.FileListAbsolute.txt" />
+    <None Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.csprojResolveAssemblyReference.cache" />
+    <None Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.dll" />
+    <None Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.pdb" />
+    <None Remove="VNETTesting\obj\VNETTesting.csproj.nuget.cache" />
+    <None Remove="VNETTesting\obj\VNETTesting.csproj.nuget.g.props" />
+    <None Remove="VNETTesting\obj\VNETTesting.csproj.nuget.g.targets" />
   </ItemGroup>
 
   <ItemGroup>
     <Content Remove="wwwroot\js\savedIndex.js" />
     <Content Remove="wwwroot\css\SavedIndex.css" />
+    <Content Remove="wwwroot\js\FileSaver.js" />
+    <Content Remove="NetConfiguratorTests\obj\project.assets.json" />
+    <Content Remove="NetworkConfigTests\obj\project.assets.json" />
+    <Content Remove="VNETLabTests\packages.config" />
+    <Content Remove="VNETLabTests\bin\Debug\netcoreapp2.0\VNETLabTests.deps.json" />
+    <Content Remove="VNETLabTests\bin\Debug\netcoreapp2.0\VNETLabTests.runtimeconfig.dev.json" />
+    <Content Remove="VNETLabTests\bin\Debug\netcoreapp2.0\VNETLabTests.runtimeconfig.json" />
+    <Content Remove="VNETLabTests\obj\project.assets.json" />
+    <Content Remove="VNETTestSuite\obj\project.assets.json" />
+    <Content Remove="VNetTests\obj\project.assets.json" />
+    <Content Remove="NetConfigTests\obj\project.assets.json" />
+    <Content Remove="Tests\packages.config" />
+    <Content Remove="Tests\obj\project.assets.json" />
+    <Content Remove="TestVNET\obj\project.assets.json" />
+    <Content Remove="VNETTest\bin\Debug\netcoreapp1.1\VNETTest.deps.json" />
+    <Content Remove="VNETTest\bin\Debug\netcoreapp1.1\VNETTest.runtimeconfig.dev.json" />
+    <Content Remove="VNETTest\bin\Debug\netcoreapp1.1\VNETTest.runtimeconfig.json" />
+    <Content Remove="VNETTest\obj\project.assets.json" />
+    <Content Remove="VNETTesting\obj\project.assets.json" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="wwwroot\css\SavedIndex.css" />
@@ -36,6 +107,8 @@
     <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.1" />
+    <PackageReference Include="NUnit" Version="3.7.1" />
+    <PackageReference Include="NUnit.Console" Version="3.7.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.1" />
@@ -47,6 +120,29 @@
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Create\" />
     <Folder Include="wwwroot\images\" />
+    <Folder Include="New Folder\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Remove="Model\Person.cs" />
+    <Compile Remove="NetConfiguratorTests\UnitTest1.cs" />
+    <Compile Remove="NetworkConfigTests\UnitTest1.cs" />
+    <Compile Remove="VNETLabTests\Test.cs" />
+    <Compile Remove="VNETLabTests\UnitTest1.cs" />
+    <Compile Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.AssemblyInfo.cs" />
+    <Compile Remove="VNETLabTests\obj\Debug\netcoreapp2.0\VNETLabTests.Program.cs" />
+    <Compile Remove="VNETTestSuite\UnitTest1.cs" />
+    <Compile Remove="VNetTests\Class1.cs" />
+    <Compile Remove="VNetTests\UnitTest1.cs" />
+    <Compile Remove="NetworkTests\CreateTests.cs" />
+    <Compile Remove="NetworkTests\SavedTests.cs" />
+    <Compile Remove="NetConfigTests\SavedDataTests.cs" />
+    <Compile Remove="Tests\Test.cs" />
+    <Compile Remove="Tests\UnitTest1.cs" />
+    <Compile Remove="TestVNET\Class1.cs" />
+    <Compile Remove="VNETTest\UnitTest1.cs" />
+    <Compile Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.AssemblyInfo.cs" />
+    <Compile Remove="VNETTest\obj\Debug\netcoreapp1.1\VNETTest.Program.cs" />
+    <Compile Remove="VNETTesting\Class1.cs" />
+  </ItemGroup>
 </Project>

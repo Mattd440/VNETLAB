@@ -11,5 +11,13 @@ namespace NetworkConfigurator.Model
         public IEnumerable<Host> Hosts { get; set; }
          public IEnumerable<Switch> Switchs { get; set; }
 
+        public SavedViewModel()
+        {
+
+        }
+        public SavedViewModel(Network net)
+        {
+            this.Network = net;
+        }
     }
 }

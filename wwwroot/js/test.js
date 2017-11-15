@@ -154,9 +154,11 @@ function Switch(name, eth0, ports)
 
 
 function postSwitch() {
+    
     var name = document.getElementById("switchname").value;
     var eth0sw = document.getElementById("eth0sw").value;
     var ports = document.getElementById("ports").value;
+     var hostButton = document.getElementById("addBtn");
 
     if(!name || !eth0 || !ports)
     {
@@ -196,14 +198,16 @@ function postNewNetwork()
 
 function showButtons()
 {
-    var saveBtn = document.getElementById("saveNetwork");
+   var saveBtn = document.getElementById("saveNetwork");
    var addBtns = document.getElementById("controlButtons");
    var networkInput = document.getElementById("newNetworkName");
+   var hostBtn = document.getElementById("addBtn");
 
     if(networkInput.value)
     {
         addBtns.style.display = "inline-block";
         saveBtn.disabled = true;
+       
     }
     else{
         alert("Please Enter a network name");

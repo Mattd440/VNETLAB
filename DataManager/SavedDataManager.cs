@@ -27,19 +27,22 @@ namespace NetworkConfigurator.DataManager
             string name = context.Network.Where(x => x.ID == id).Select(x => x.Name).First();
             var hosts = context.Hosts.Where(x => x.NetworkID == ID).Select(x => x).ToList();
             var switchs = context.Switchs.Where(x => x.NetworkID == ID).Select(x => x).ToList();
+
             var svm = new SavedViewModel()
             {
                 Network = new Network() { ID = ID, Name = name },
                 Hosts = hosts,
                 Switchs = switchs,
             };
+           
+
             return svm;
         }
 
         public static List<SavedViewModel> GetAllNetworks(PeopleContext context)
         {
             List<SavedViewModel> svm = new List<SavedViewModel>();
-            for (int i = 27; i < SavedDataManager.GetNumNetworks(context) + 27; i++)
+            for (int i = 41; i < SavedDataManager.GetNumNetworks(context) + 41; i++)
             {
                 SavedViewModel viewModel = SavedDataManager.GetNetwork(context, i);
                 svm.Add(viewModel);

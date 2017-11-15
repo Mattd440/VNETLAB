@@ -19,6 +19,16 @@ namespace NetworkConfigurator.Model
         public int? NetworkID { get; set; }
         public virtual Switch Switch { get; set; }
         public virtual Network Network { get; set; }
-       
+
+        public Host()
+        {
+
+        }
+        public Host(String Name, String Adapter)
+        {
+            this.Name = Name;
+            this.Adapter = Adapter;
+        }
+
     }
 }

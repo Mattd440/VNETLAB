@@ -28,8 +28,8 @@ textarea {
     width: 100%;
 }
 #foot{
-    position:relative;
-    bottom:0px;
+    position:absolute;
+    bottom:'0px';
 }
 
 /* Hide/rearrange for smaller screens */

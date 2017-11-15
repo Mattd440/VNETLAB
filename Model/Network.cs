@@ -12,5 +12,14 @@ namespace NetworkConfigurator.Model
 
         public ICollection<Host> Hosts { get; set; }
         public ICollection<Switch> Switchs { get; set; }
+
+        public Network()
+        {
+
+        }
+        public Network(String Name){
+            this.Name = Name;
+
+        }
     }
 }
