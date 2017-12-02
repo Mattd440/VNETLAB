@@ -1,5 +1,5 @@
 ﻿<Properties StartupConfiguration="{16AFA76C-20C3-48DD-9A27-37729BEA19ED}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Views/Home/Index.cshtml">
     <Files>
       <File FileName="Controllers/CreateController.cs" Line="49" Column="9" />
       <File FileName="Controllers/SavedController.cs" Line="7" Column="1" />
@@ -13,7 +13,8 @@
       <File FileName="Model/PostedSwitch.cs" Line="20" Column="1" />
       <File FileName="Model/SavedViewModel.cs" Line="15" Column="45" />
       <File FileName="Program.cs" Line="1" Column="1" />
-      <File FileName="Startup.cs" Line="1" Column="1" />
+      <File FileName="Startup.cs" Line="12" Column="1" />
+      <File FileName="Views/Home/Index.cshtml" Line="25" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
