@@ -115,12 +115,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\" />
-    <Folder Include="File\" />
     <Folder Include="Properties\PublishProfiles\" />
     <Folder Include="Views\Home\" />
     <Folder Include="Views\Create\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="New Folder\" />
+    <Folder Include="File\" />
+    <Folder Include="File\" />
   </ItemGroup>
 
   <ItemGroup>

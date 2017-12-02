@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * Model For the Saved Page Contains a Network and all its hosts and switchs
+ * 
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -9,7 +14,7 @@ namespace NetworkConfigurator.Model
     {
         public Network Network { get; set; }
         public IEnumerable<Host> Hosts { get; set; }
-         public IEnumerable<Switch> Switchs { get; set; }
+        public IEnumerable<Switch> Switchs { get; set; }
 
         public SavedViewModel()
         {

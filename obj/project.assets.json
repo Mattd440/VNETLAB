@@ -26413,11 +26413,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/mattdiederick/Desktop/VNETLAB 2/VNETLAB/NetworkConfigurator.csproj",
+      "projectUniqueName": "/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/NetworkConfigurator.csproj",
       "projectName": "NetworkConfigurator",
-      "projectPath": "/Users/mattdiederick/Desktop/VNETLAB 2/VNETLAB/NetworkConfigurator.csproj",
+      "projectPath": "/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/NetworkConfigurator.csproj",
       "packagesPath": "/Users/mattdiederick/.nuget/packages/",
-      "outputPath": "/Users/mattdiederick/Desktop/VNETLAB 2/VNETLAB/obj",
+      "outputPath": "/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/obj",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/mattdiederick/.config/NuGet/NuGet.Config"

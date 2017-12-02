@@ -89,3 +89,14 @@ C:/Users/Matt/Desktop/CSETProj2/obj/Debug/netcoreapp1.1/NetworkConfigurator.pdb
 /Users/mattdiederick/Desktop/VNETLAB 2/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.runtimeconfig.dev.json
 /Users/mattdiederick/Desktop/VNETLAB 2/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.dll
 /Users/mattdiederick/Desktop/VNETLAB 2/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.pdb
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.deps.json
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.runtimeconfig.json
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.runtimeconfig.dev.json
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.dll
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/bin/Debug/netcoreapp1.1/NetworkConfigurator.pdb
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/obj/Debug/netcoreapp1.1/NetworkConfigurator.csprojResolveAssemblyReference.cache
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/obj/Debug/netcoreapp1.1/NetworkConfigurator.csproj.CoreCompileInputs.cache
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/obj/Debug/netcoreapp1.1/NetworkConfigurator.AssemblyInfoInputs.cache
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/obj/Debug/netcoreapp1.1/NetworkConfigurator.AssemblyInfo.cs
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/obj/Debug/netcoreapp1.1/NetworkConfigurator.dll
+/Users/mattdiederick/Desktop/VNETWithTests/VNETLAB/obj/Debug/netcoreapp1.1/NetworkConfigurator.pdb

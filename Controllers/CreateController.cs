@@ -1,15 +1,20 @@
-using System;
+/*
+ * This Class Controls The Page to Create Networks 
+ * Index Method Displays the page that allows you to create networks
+ * The add host/switch/network are HTTP POST end points that allow you to send
+*data that will be processed and saved to the database
+*
+*The URLS they handle are noted above each method
+*
+*/ 
 
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+
+
+
 using Microsoft.AspNetCore.Mvc;
-using System.Net.Http;
 using NetworkConfigurator.DataManager;
 using NetworkConfigurator.Model;
 using Microsoft.AspNetCore.Cors;
-using Newtonsoft.Json.Linq;
-using Newtonsoft.Json;
 
 // create a save button that passes an instance of a network back to index and save the network to a list of networks in index
 namespace NetworkConfigurator.Controllers
@@ -23,18 +28,17 @@ namespace NetworkConfigurator.Controllers
         public Switch newSwitch;
         public Network newNetwork;
         public CreateDataManager createDM;
-       // public int NetworkID = 1;
-      //  public static bool NetworkCreated = false;
-       static string   NetworkName; 
-        //constructor to initialize network components 
+       
+        static string   NetworkName; 
+       
+        // Contstruct creates the database context that is used to connect with
+        // database to add/ delete update data 
+        // also creates an instance of the datamanager and the context is passed to it
         public CreateController(PeopleContext context)
         {
             createDM = new CreateDataManager(context);
             this._context = context;
-            //this.newHost = new Host();
-            //this.newSwitch = new Switch();
-            //this.newNetwork = new Network();
-            //SaveNetwork(_context, newNetwork);
+
         }
        
         //  /create or /create/index  returns the view in the views/create folder
@@ -42,6 +46,9 @@ namespace NetworkConfigurator.Controllers
         {
             return View();
         }
+
+
+
         [HttpPost("Create/AddNetwork")]
         [EnableCors("AllowSpecificOrigin")]
         public IActionResult AddNetwork([FromBody]string name)

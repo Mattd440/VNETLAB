@@ -1,4 +1,10 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿/*
+ * This class handles the database and table creation
+ * 
+ */
+
+
+using Microsoft.EntityFrameworkCore;
 using NetworkConfigurator.Model;
 using System;
 using System.Collections.Generic;
@@ -11,26 +17,30 @@ namespace NetworkConfigurator.DataManager
     // this class is used for datebase access and CRUD operations
     public class PeopleContext :DbContext
     {
-
+        // Creates the Network Table
         public DbSet<Network> Network { get; set; }
-       //public DbSet<Person> people { get; set; }
-     
+       
+        // Creates the Host Table
         public DbSet<Host> Hosts { get; set; }
+
+        // Creates the Switch Table
         public DbSet<Switch> Switchs { get; set; }
-       // public DbSet<Switch> switchs { get; set; }
+      
+        // Setsup the database Connection
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            //optionsBuilder.UseSqlServer("Data Source=.\\SQLEXPRESS;Initial Catalog=VNET;Integrated Security=True;");
-            // optionsBuilder.UseSqlServer("Server=tcp:viewnet2.database.windows.net,1433;Initial Catalog=viewnet2;Persist Security Info=False;User ID=webappuser;Password=Mmd44035;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Persist Security Info=True;");
+           
             optionsBuilder.UseSqlServer("Server=tcp:vnet2.database.windows.net,1433;Initial Catalog=VNET2-sql;Persist Security Info=False;User ID=mattd440;Password=Mmd44035;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;Persist Security Info=True; ");
         }
 
+        //required empty intializers
         public PeopleContext(DbContextOptions<PeopleContext> options) : base(options)
         {
 
         }
         public PeopleContext() { }
 
+        // queries for a switchs ID
         public int getSwitchID(string name)
         {
             var net = this.Network; ;
@@ -41,6 +51,7 @@ namespace NetworkConfigurator.DataManager
             return id.First() ; 
         }
        
+        // queries for a networks ID
         public int getNetworkId(string name)
         {
             var id = from n in Network

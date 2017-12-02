@@ -1,4 +1,9 @@
-﻿using System;
+﻿/*
+ * 
+ * MODEL for the Host Table
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,6 +12,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace NetworkConfigurator.Model
 {
+    
     [Table("Hosts")]
     public class Host 
     {

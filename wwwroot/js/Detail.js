@@ -4,7 +4,7 @@ function GetFile()
     var blob;
     var data;
     var a = document.getElementById("a");
-    var txtFile = "test.json";
+    var txtFile = "networkconfig.json";
 
     var xhr = new XMLHttpRequest();
     xhr.open('POST', '/Saved/GetNetworkFile', true);

@@ -1,4 +1,11 @@
-﻿using System;
+﻿/*
+ * Class Controlls The database operations For the Saved Page
+ * 
+ * 
+ */
+
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,7 +18,7 @@ namespace NetworkConfigurator.DataManager
 {
     public static class SavedDataManager
     {
-
+        // returns the number of networks saved in the databse
         public static int GetNumNetworks(PeopleContext context)
         {
             var num = from n in context.Network
@@ -19,7 +26,7 @@ namespace NetworkConfigurator.DataManager
             return num.Count();
         }
 
-
+        // returns the network with the passed in ID
         public static SavedViewModel GetNetwork(PeopleContext context, int id)
         {
             int ID = context.Network.Where(x => x.ID == id).Select(x => x.ID).First();
@@ -39,10 +46,11 @@ namespace NetworkConfigurator.DataManager
             return svm;
         }
 
+        // returns all Network Objects saved in the database
         public static List<SavedViewModel> GetAllNetworks(PeopleContext context)
         {
             List<SavedViewModel> svm = new List<SavedViewModel>();
-            for (int i = 41; i < SavedDataManager.GetNumNetworks(context) + 41; i++)
+            for (int i = 106; i < SavedDataManager.GetNumNetworks(context) + 106; i++)
             {
                 SavedViewModel viewModel = SavedDataManager.GetNetwork(context, i);
                 svm.Add(viewModel);
@@ -50,18 +58,18 @@ namespace NetworkConfigurator.DataManager
             return svm;
         }
 
+        // 
+		//public static FileStreamResult DownloadFile(SavedViewModel network)
+		//{
+		//	var location = "NetworkConfigurator.File";
+		//	if (network != null)
+		//	{
 
-		public static FileStreamResult DownloadFile(SavedViewModel network)
-		{
-			var location = "NetworkConfigurator.File";
-			if (network != null)
-			{
-
-				System.IO.File.WriteAllText(location + "/mynetwork.json", JsonConvert.SerializeObject(network));
-				Stream str = System.IO.File.OpenRead(location + "/mynetwork.json");
-				return new FileStreamResult(str, Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json"));
-			}
-			return null;
-		}
+		//		System.IO.File.WriteAllText(location + "/mynetwork.json", JsonConvert.SerializeObject(network));
+		//		Stream str = System.IO.File.OpenRead(location + "/mynetwork.json");
+		//		return new FileStreamResult(str, Microsoft.Net.Http.Headers.MediaTypeHeaderValue.Parse("application/json"));
+		//	}
+		//	return null;
+		//}
     }
 }

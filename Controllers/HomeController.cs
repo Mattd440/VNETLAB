@@ -1,3 +1,13 @@
+
+/*
+ * The Class Just Controls the "/" or "" route and only displays the HOme Page
+ * 
+ * 
+ * 
+ */
+
+
+
 using System;
 using System.Collections.Generic;
 using System.Linq;
